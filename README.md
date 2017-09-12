@@ -1,2 +1,2 @@
-## Manager
-# Simple App to manage employees
+# Manager
+## Simple App to manage employees
