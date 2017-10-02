@@ -1,4 +1,5 @@
 import firebase from 'firebase';
+import {Actions} from 'react-native-react-flux';
 import {
     EMAIL_CHANGED,
     PASS_CHANGED,
