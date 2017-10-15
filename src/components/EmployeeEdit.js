@@ -39,6 +39,11 @@ class EmployeeEdit extends Component {
                         Text Schedule
                     </Button>
                 </CardSection>
+                <CardSection>
+                    <Button onPress={this.onFirePress.bind(this)}>
+                        Fire
+                    </Button>
+                </CardSection>
             </Card>
         );
     }
