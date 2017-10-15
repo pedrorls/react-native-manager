@@ -2,7 +2,7 @@ import _ from 'lodash';
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
 import Communications from 'react-native-communications';
-import {Card, CardSection, Button} from './common';
+import {Card, CardSection, Button, ConfirmModal} from './common';
 import {employeeUpdate, employeeSave} from '../actions';
 import EmployeeForm from './EmployeeForm';
 
@@ -44,6 +44,8 @@ class EmployeeEdit extends Component {
                         Fire
                     </Button>
                 </CardSection>
+
+
             </Card>
         );
     }
